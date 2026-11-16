@@ -1,6 +1,6 @@
-# Benchmark Video Realism & Optical Analysis Spec (基于实拍带货视频 Download.mp4 深度拆解)
+# 实拍带货标杆光学与真实度规范（Benchmark Video Realism Spec）
 
-本规范基于真实爆款带货视频素材 `D:\软件缓存\Google\Download.mp4` 进行全维度物理光学与带货交互逆向工程，作为 MiniMax H3 消除 AI 假质感、实现 98% 真实度还原的工业级锚点。
+本规范基于一条真实爆款带货实拍素材进行全维度物理光学与带货交互逆向工程，作为 MiniMax H3 消除 AI 假质感、提升真实度还原的工业级锚点。
 
 ---
 
