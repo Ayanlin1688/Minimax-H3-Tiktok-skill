@@ -250,7 +250,8 @@ R 去干净化、T 说话不完美、产品一致性五锁；27 条铁律 + 36 �
 │   └── fetch_tiktok_trends.py             8 大爆款原型匹配与分镜骨架生成
 │
 └── tools/
-    └── sync-to-github.ps1                 一键同步到本仓库
+    ├── sync-to-github.ps1                 一键同步：推云端 + 镜像到本机技能库
+    └── build-package.ps1                  一键打包：按 CHANGELOG 版本号出 zip + SHA256
 ```
 
 ---
@@ -295,6 +296,42 @@ git clone https://github.com/Ayanlin1688/Minimax-H3-Tiktok-skill.git
 
 把整个文件夹放进客户端的 skills 目录（例：`C:\Users\<你>\.dsh\skills\`），重启客户端后，
 新开对话直接说 `调用 minimax-h3-tiktok-ecommerce …` 即可自动加载。
+
+---
+
+## 维护与同步（以后怎么更新）
+
+**仓库目录就是唯一真源。** 改完规则后，一条命令完成三件事：镜像到本机技能库 → 提交 → 推云端。
+
+```powershell
+# 进入仓库
+cd <仓库路径>
+
+# 1) 改规则（编辑 SKILL.md / references/ 下的文件）
+
+# 2) 一条命令同步
+pwsh -File tools/sync-to-github.ps1 -Message "feat: 新增 XXX 规则"
+
+# 3) 出可分发包（版本号自动读 CHANGELOG）
+pwsh -File tools/build-package.ps1
+```
+
+### 发版流程（建议）
+
+| 步骤 | 操作 |
+|---|---|
+| 1 | 在 `CHANGELOG.md` 顶部加一条 `## [x.y.z] - 日期` |
+| 2 | 跑 `tools/build-package.ps1` 出 zip + SHA256 |
+| 3 | 跑 `tools/sync-to-github.ps1` 推云端 |
+| 4 | 在 GitHub 打 tag / 发 Release，附上 zip |
+
+### 版本号怎么定
+
+| 层级 | 触发 | 例 |
+|---|---|---|
+| **MAJOR** | 架构重构（如"反缺陷清单 → 正向真实感模型"） | 2.0.0 |
+| **MINOR** | 新增铁律 / 品类层 / 规则库文件 | 1.1.0 |
+| **PATCH** | 修正措辞、补漏、文档修订 | 1.0.1 |
 
 ---
 
