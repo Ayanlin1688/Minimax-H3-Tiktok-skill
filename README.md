@@ -6,6 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-MiniMax%20H3%20%2F%20Hailuo%2002-orange.svg)](#)
 [![Market](https://img.shields.io/badge/market-TikTok%20Shop%20US-black.svg)](#)
+[![Sponsor](https://img.shields.io/badge/☕-%E8%B5%9E%E8%B5%8F%E6%94%AF%E6%8C%81-yellow.svg)](#赞赏支持)
 
 ---
 
@@ -228,6 +229,10 @@ R 去干净化、T 说话不完美、产品一致性五锁；27 条铁律 + 36 �
 ├── prompt-template.txt                    用户输入卡（含三大品类填写示例）
 ├── README.md                              本文件
 ├── LICENSE                                MIT
+├── CHANGELOG.md                           更新日志（版本号来源）
+│
+├── assets/
+│   └── sponsor-qr.jpg                     赞赏码（README 引用）
 │
 ├── references/                            规则库与诊断档案
 │   ├── persona-variation-pool.md          ★ A–F 六组随机人物池（治固定痣）
@@ -357,6 +362,23 @@ pwsh -File tools/build-package.ps1
 
 ---
 
+## 赞赏支持
+
+如果这个 Skill 帮你少发了几条废片、少熬了几个夜，欢迎扫码请我喝杯咖啡 ☕
+
+<table>
+<tr><td align="center">
+  <img src="assets/sponsor-qr.jpg" alt="赞赏码" width="280">
+  <br>
+  <b>「祝福的人都发财！」</b>
+</td></tr>
+</table>
+
+> 赞赏完全自愿，**不影响任何功能与后续更新**。本项目永久 MIT 开源。
+> 更实在的支持方式是：**点个 ⭐ Star**，以及把遇到的翻车帧发给我 —— 那才是让它继续变好的燃料。
+
+---
+
 ## English Summary
 
 A prompt-engineering Skill for **MiniMax H3 (Hailuo 02)** that generates TikTok Shop US product-video prompts which actually look like real handheld footage.
@@ -366,6 +388,14 @@ Built by reverse-engineering **five rounds of failed AI videos frame by frame**.
 Universal across product categories via a three-axis router: **T** (physical size) × **C** (interaction grammar) × **S** (regulated-category compliance).
 
 Ships with a copy-paste master template, a randomized persona pool, a US home-scene library, an 8-archetype viral script vault, and 36 self-checks.
+
+---
+
+## Support
+
+If this Skill saved you a few wasted renders, you're welcome to buy me a coffee ☕ — scan the QR code above.
+
+Sponsorship is entirely optional and **never gates any feature or future update**. This project stays MIT-licensed forever. The more useful support is a **⭐ Star** and sending me your failed frames — that's what keeps it improving.
 
 ---
 
