@@ -1,0 +1,134 @@
+================================================================================
+【MiniMax H3 美区 TikTok Shop 全类目通用实拍主模板】
+（Universal Real-Shot Master Template · 固定七层脚手架 + 6 个填空槽）
+================================================================================
+使用方法：
+1. 下方【固定段】一个字都不要改，直接保留——这是"看起来像实拍"的物理地基。
+2. 只填【填空槽 ①②③④⑤⑥】，换品类只换这 6 处。
+3. 拼好后整段粘贴进海螺 AI / H3，一次生成 3 条挑 1 条。
+
+--------------------------------------------------------------------------------
+【固定段 1 · 传感器与机身】（任何品类都原样保留）
+--------------------------------------------------------------------------------
+Shot on a handheld phone in raw unedited vertical footage, 24fps, 9:16, deep depth of field keeping both the subject and the cluttered background sharp. The footage carries a faint even grain from the phone sensor in the darker areas, and one small area clips to pure white where the light source meets a metal edge. The white balance is slightly warm on the side facing the light and slightly cool on the opposite side, because the two light sources do not match. One person holds the phone in one hand for the whole clip: the frame drifts a centimetre or two as the arm tires and re-centres once, and it dips slightly when he shifts his weight. The phone stays in the hand and moves with the small drift of a handheld arm.
+
+--------------------------------------------------------------------------------
+【固定段 1.5 · 前三秒钩子 ★新增、必填、不可省略】
+--------------------------------------------------------------------------------
+At 00:00.000 the action is already half done: ①（写一个进行到一半的动作 + 可见阻力/反差/意外，产品第 1 秒已入画）。
+（三要素：① 物理动作在进行中 ② 有可见困难/反差/意外 ③ 产品第 1 秒已入画；前 3 秒台词 ≤6 词；首句禁写场景交代与人物介绍）
+
+--------------------------------------------------------------------------------
+【固定段 2 · 人物真实度】★每次从 A–F 六组随机抽 1 组（见 references/persona-variation-pool.md），禁止固定瘣位置
+--------------------------------------------------------------------------------
+The person is ①，wearing ①。The face has visible pores along the nose and upper cheeks, three faint horizontal lines across the forehead, one small dark mole below one eye, and two-day uneven stubble along the jaw where it has grown unevenly. The face is slightly asymmetric: one brow sits a little higher than the other, one eye opens marginally wider, and the corner of the mouth on one side pulls down more when he talks. The skin keeps its own uniform natural tone all over, in one even shade all over, holding its own colour next to whatever sits beside the face. The eyes carry a visible dark iris ring and one small rectangular white catchlight in each eye from the overhead light. The only shine on the face is a small spot on the bridge of the nose.
+
+--------------------------------------------------------------------------------
+【固定段 3 · 动作与说话不完美】（保留，只替换横线上的具体内容）
+--------------------------------------------------------------------------------
+He is doing the thing while he talks, speaking sideways to the person holding the phone as if answering a question. ②（写 1 处手部微失误）。③（写 1 处说话不完美：起句卡壳 / 换气 / 自我更正 / 音量不均 / 句尾衰减）。
+
+--------------------------------------------------------------------------------
+【固定段 4 · 场景杂乱底线】（保留句式，只替换杂物清单）
+--------------------------------------------------------------------------------
+The setting is ④。Behind and beside him the surface holds a jumble of unrelated items: ⑤（列 5–8 件与产品完全无关的杂物）。None of these objects move during the shot. The room light is flat and neutral, coming from ④ 的光源，and it leaves the skin tone and the product colour unchanged.
+
+--------------------------------------------------------------------------------
+【固定段 5 · 连续性总锁】（原样保留）
+--------------------------------------------------------------------------------
+There is exactly one unit of this product in the entire video. The unit appears once in the frame, in one place at a time. When the shot changes, the same unit is carried over physically from where it was.
+
+--------------------------------------------------------------------------------
+【固定段 5.5 · 穿模防护与产品一致性 ★新增、原样保留】
+--------------------------------------------------------------------------------
+The surface of the product stays continuous and unbroken where the hand touches it. The fingers wrap around the outside of the grip and the grip's outline stays visible along the edge of each finger; no fingertip, knuckle or nail appears on the inside of the product body. Where a finger crosses in front of the product, the finger covers that part of the product and the product's edge stops at the finger. (Transparent products add: the hand touches only the outside, the fingers show through the glass as slightly darker shifted shapes behind an intact continuous glass wall, and the liquid never touches a finger.) The same single unit stays unchanged across the whole clip: the same overall length, the same proportions, the same cap and end shape, the same colour and level of its contents, and the same size relative to his hand.
+
+--------------------------------------------------------------------------------
+【固定段 6 · 声音】（原样保留，只替换环境名）
+--------------------------------------------------------------------------------
+overall_soundscape:
+Low steady room tone of the setting, faint distant street or outdoor noise, a soft hum from the product's light or motor, the light rustle of clothing.
+
+non_diegetic_music:
+N/A
+
+--------------------------------------------------------------------------------
+【填空槽 ① · 人物】（换品类只换这里）
+--------------------------------------------------------------------------------
+姓名代号 + 年龄 + 性别 + 发型 + 衣着 + 职业感
+示例：a grey-haired man in his late fifties, wearing a dark blue button-up work shirt with a small embroidered patch on the chest, the sleeves rolled to the forearm
+
+--------------------------------------------------------------------------------
+【填空槽 ② · 手部微失误】（换品类只换这里）
+--------------------------------------------------------------------------------
+示例（长条灯）：He grips the bar, it slips a fraction in his palm, and he re-seats his fingers before continuing.
+示例（杯具）：He picks the cup up, it tilts and a little liquid moves, and he levels it before drinking.
+示例（衣物）：He pulls the jacket on, one sleeve catches, and he shakes his arm through it.
+
+--------------------------------------------------------------------------------
+【填空槽 ③ · 说话不完美】（换品类只换这里）
+--------------------------------------------------------------------------------
+示例：He starts the sentence, stops himself, takes a short breath and restarts; the first two words come out a little too loud, then his volume drops, and the last word trails off.
+示例：He talks while looking at the product rather than at the phone, pauses once mid-sentence as if deciding what to say, then finishes flatly.
+
+--------------------------------------------------------------------------------
+【填空槽 ④ · 场景与光源】（换品类只换这里）
+--------------------------------------------------------------------------------
+示例：a home garage with the roll-up door half raised
+示例：a small apartment kitchen with one window over the sink
+示例：a bedroom corner with a floor lamp on
+示例：an office desk beside a window with blinds half closed
+
+--------------------------------------------------------------------------------
+【填空槽 ⑤ · 无关杂物清单】（5–8 件，换品类只换这里）
+--------------------------------------------------------------------------------
+车库示例：a half-open toolbox with three loose sockets spilling out, a stained paper coffee cup, a coil of black air hose, a stack of old receipts held down by a bolt, a shop rag draped over the vice, a radio with its antenna bent
+
+厨房示例：a chipped mug with a tea bag string over the rim, a crumpled dish towel, two loose rubber bands, a stack of unopened mail, a half-cut lemon on a board, a pair of scissors lying open
+
+卧室示例：a tangle of charging cables, a half-folded jumper on the chair, a book face-down with its spine cracked, a used water glass, a hair tie on the nightstand, a cardboard box with the flaps torn
+
+办公桌示例：a tangle of two cables, a cold half-finished coffee, a sticky note pad with the top sheet curling, a pair of glasses folded on a notebook, a small pot with dry soil, three loose pens
+
+--------------------------------------------------------------------------------
+【填空槽 ⑥ · 产品结构锁 + 展态 + 接触锁】（换品类只换这里，六项缺一不可）
+--------------------------------------------------------------------------------
+结构锁六项：①整体比例 ②颜色分布（哪一段什么色）③按键数量与形状位置 ④端头形状 ⑤线缆 ⑥表面工艺
++ 展态：fully unfolded and locked open / assembled and locked / filled to the line
++ 单实例：there is exactly one unit
++ 接触锁（按 T 档位选一种）：
+  · 手持：the fingers wrap around the grip with the thumb on the front face and the fingertips closed behind
+  · 磁吸：the flat faces of the two round steel discs press flush against the flat steel panel, both surfaces meeting with a visible contact line along the join, seated tight
+  · 挂钩：the U-shaped wire hook hooks over the thin metal lip, the wire lying flat on it
+  · 平放：the whole unit rests flat on the surface, its full length in contact
++ 表面痕迹：a fine layer of dust on the casing, two faint fingerprints near the grip, a slightly worn sheen where thumbs land
++ 文字分层（与官方规范对齐）：keeps the original logos, printed markings and small display state on the casing exactly as they appear in the reference, presented at the same size and position
+
+--------------------------------------------------------------------------------
+【固定段 7 · 负向提示词】（原样保留，永不放正向段）
+--------------------------------------------------------------------------------
+extra hands, third hand, extra arms, floating hands, disembodied fingers, mutated hands, deformed fingers,
+floating object, levitating product, hovering product, object without support,
+ghosting, double exposure, motion blur trails, duplicate object, two products, object cloning,
+red flushed cheeks, blush, rosy cheeks, colour patches on skin, red cast on skin,
+waxy skin, plastic mask face, mannequin face, lifeless eyes, symmetric cyber face,
+perfectly clean surface, brand new unmarked product, sterile empty background,
+cinematic dolly, gimbal glide, locked-off tripod, rack focus, aerial shot, bokeh, rim light, colour grading,
+smooth dolly push in, professional studio lighting, advertising gloss,
+clipped fingers, fingers through object, hand inside product, intersecting geometry,
+fingers merged with product, fingertip inside bottle, hand penetrating surface,
+product and hand fused, broken product silhouette, impossible grip,
+subtitles, captions, on-screen text, invented signage, price tags, watermark, brand logos,
+big open-mouth smile, presenter grin, stiff posing, standing idle, reading from a script,
+low resolution.
+
+================================================================================
+【交付前六问·必须全过】（对应 references/real-footage-realism-model.md 第五节）
+================================================================================
+1. 有噪点 / 高光溢出 / 白平衡不均吗？
+2. 有机身手臂疲劳微动吗？
+3. 场景有 5 件以上无关杂物吗？
+4. 产品有灰尘 / 指纹 / 磨损吗？
+5. 说话有卡壳 / 换气 / 音量不均吗？
+6. 手有打滑 / 没按到 / 重抓吗？
+================================================================================
